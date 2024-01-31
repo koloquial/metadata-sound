@@ -295,8 +295,7 @@ const App = () => {
               <h3 className='alt'>:albums</h3> : 
               <a onClick={() => setView('')}><h3>:back</h3></a>}
         </Grid>
-
-  
+        
           {albums.map(album => {
             if(view === album.title){
               return (
