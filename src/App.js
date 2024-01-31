@@ -87,7 +87,7 @@ const App = () => {
   const bowls = {
     cover: bowlsCover,
     title: 'Bowls',
-    source: "https://bandcamp.com/EmbeddedPlayer/album=3932449156/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    source: "https://bandcamp.com/EmbeddedPlayer/album=3932449156/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/",
     tracklist: [
       ['in part by', '00:02'],
       ['one last thought before i go to sleep', '02:46'],
@@ -112,7 +112,7 @@ const App = () => {
   const besides = {
     cover: besidesCover,
     title: 'Besides',
-    source: "https://bandcamp.com/EmbeddedPlayer/album=3204027985/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    source: "https://bandcamp.com/EmbeddedPlayer/album=3204027985/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/",
     tracklist: [
       ['what once was, beside', '02:43'],
       ['blows away from my eyelashes', '01:50'],
@@ -128,7 +128,7 @@ const App = () => {
   const daDaDziej = {
     cover: dadadziejCover,
     title: 'Da Da Dziej',
-    source: "https://bandcamp.com/EmbeddedPlayer/album=891677090/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    source: "https://bandcamp.com/EmbeddedPlayer/album=891677090/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/",
     tracklist: [
       ['well, say hello / no don’t mind', '03:03'],
       ['come again ?', '01:42'],
@@ -144,7 +144,7 @@ const App = () => {
   const particlePosh = {
     cover: particlePoshCover,
     title: 'Particle Posh',
-    source: "https://bandcamp.com/EmbeddedPlayer/album=1246276476/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    source: "https://bandcamp.com/EmbeddedPlayer/album=1246276476/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/",
     tracklist: [
       ['allthingseverywhere', '02:12'],
       ['orange cones', '02:19'],
@@ -160,7 +160,7 @@ const App = () => {
   const koalaCzech = {
     cover: koalaCzechCover,
     title: 'Koala Czech',
-    source: "https://bandcamp.com/EmbeddedPlayer/album=3202129646/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    source: "https://bandcamp.com/EmbeddedPlayer/album=3202129646/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/",
     tracklist: [
       ['drop', '02:02'],
       ['down', '00:55'],
@@ -181,7 +181,7 @@ const App = () => {
   const planogram = {
     cover: planogramCover,
     title: 'Planogram',
-    source: "https://bandcamp.com/EmbeddedPlayer/album=1680369243/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    source: "https://bandcamp.com/EmbeddedPlayer/album=1680369243/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/",
     tracklist: [
       ['Track1', '00:48'],
       ['Track2', '01:24'],
@@ -199,7 +199,7 @@ const App = () => {
   const tryCatch = {
     cover: tryCatchCover,
     title: 'Try{ }Catch',
-    source: "https://bandcamp.com/EmbeddedPlayer/album=4078562382/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    source: "https://bandcamp.com/EmbeddedPlayer/album=4078562382/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/",
     tracklist: [
       ['Try{', '00:48'],
       ['Sometimes when I think of you', '02:24'],
@@ -218,7 +218,7 @@ const App = () => {
   const surrounds = {
     cover: surroundsCover,
     title: 'Surrounds',
-    source: "https://bandcamp.com/EmbeddedPlayer/album=1803367422/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    source: "https://bandcamp.com/EmbeddedPlayer/album=1803367422/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/",
     tracklist: [
       ['Torn', '02:24'],
       ['Fuzz', '02:24'],
@@ -234,7 +234,7 @@ const App = () => {
   const ambivert = {
     cover: ambivertCover,
     title: 'Ambivert',
-    source: "https://bandcamp.com/EmbeddedPlayer/album=761001958/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    source: "https://bandcamp.com/EmbeddedPlayer/album=761001958/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/",
     tracklist: [
       ['Desi', '01:43'],
       ['Dera', '01:22'],
@@ -250,7 +250,7 @@ const App = () => {
   const cutingras = {
     cover: cutingrasCover,
     title: 'Cutingras',
-    source: "https://bandcamp.com/EmbeddedPlayer/album=510312726/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    source: "https://bandcamp.com/EmbeddedPlayer/album=510312726/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/",
     tracklist: [
       ['Couchdze', '00:47'],
       ['Ttreehiuse', '02:46'],
@@ -266,7 +266,7 @@ const App = () => {
   const ausolaSerila = {
     cover: ausCover,
     title: 'Ausola Serila',
-    source: "https://bandcamp.com/EmbeddedPlayer/album=2138026277/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    source: "https://bandcamp.com/EmbeddedPlayer/album=2138026277/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/",
     tracklist: [
       ['Razi Fada', '01:48'],
       ['Glasward', '02:24'],
