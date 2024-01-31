@@ -5,3 +5,71 @@
   --shade3: #998FC7;
   --alt: #B8336A;
 }
+
+a, a:link, a:active, a:visited{
+  color: var(--shade2);
+  font-weight: normal;
+  cursor: pointer !important;
+  text-decoration: none;
+}
+
+a:hover{
+  color: var(--shade3);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Ysabeau Office', sans-serif;
+  font-weight: normal;
+  letter-spacing: 10px;
+  animation: fadeIn 1s;
+  font-variant: small-caps;
+}
+
+p{
+  font-variant: small-caps;
+  letter-spacing: 3px;
+  font-weight: normal !important;
+}
+
+body{
+  background-color: var(--shade1);
+  color: var(--white);
+  animation: fadeIn 5s;
+}
+
+.alt{
+  color: var(--alt);
+}
+
+img{
+  width: 100%;
+}
+
+.album-container{
+  opacity: .5;
+  cursor: pointer;
+}
+
+.album-container:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+tr{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+td{
+  padding: 0px 0px 0px 10px;
+  margin: 0;
+}
+
+tr:nth-child(even){
+ background-color: rgb(73, 70, 80, .5);
+}
