@@ -27,7 +27,7 @@ const AlbumView = ({ data, setView }) => {
                     {data.soundcloud ? <p><span className='alt'>soundcloud:</span><a href={data.soundcloud} target="_blank">link</a></p> : <></>}
 
                     <p><span className='alt'>download:</span> <a href={data.download} target="_blank">link</a></p>
-        </div>
+            </div>
         </Grid>
 
         <Grid item xs={12}>
@@ -42,6 +42,18 @@ const AlbumView = ({ data, setView }) => {
                     )
                 })}
             </table>
+            {data.bonus ? <>
+                <table style={{width: '100%'}}>
+                    {data.bonus.map(track => {
+                        return (
+                            <tr>
+                                <td><p>{track[0]} <span className='alt'>(bonus)</span></p></td>
+                                <td style={{textAlign: 'right'}}><p>{track[1]}</p></td>
+                            </tr>
+                        )
+                    })}
+                </table>
+            </> : <></>}
         </Grid>
     </Grid>
     )
